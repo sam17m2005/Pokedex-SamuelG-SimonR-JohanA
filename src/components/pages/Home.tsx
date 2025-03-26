@@ -17,7 +17,7 @@ const Home = () => {
 
         <div className="col-md-6">
           <img
-            src="../../../img/pokhome.png"
+            src="/img/pokhome.png"
             alt="Pokedex"
             className="img-fluid"
             style={{ maxHeight: "400px" }}
