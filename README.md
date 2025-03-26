@@ -9,4 +9,5 @@ Estudiantes: Johan Felipe Aguilar Castillo, Samuel Alejandro González Grajales,
   <li>Descargar el proyecto desde este repositorio y abrirlo en un editor de código.</li>
   <li>Entrar en la carpeta del proyecto, en la consola de comandos y ejecutar <strong>npm install</strong>.</li>
   <li>En consola ejecutar <strong>npm run dev</strong>. (Esto mostrará la URL por defecto del proyecto donde se estaría ejecutando)</li>
+  <li>Link de la página subida: https://pokedex-johana-samuelg-simon-r.netlify.app/</li>
 </ul>
