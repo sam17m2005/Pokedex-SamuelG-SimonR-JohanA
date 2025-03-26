@@ -13,7 +13,7 @@ const usePokemon = (
   selectedType: string | null,
   searchTerm: string
 ) => {
-  const [finalSearch, setFinalSearch] = useState<string>(searchTerm || ""); // Inicializa con searchTerm
+  const [finalSearch, setFinalSearch] = useState<string>(searchTerm || ""); 
   const [isLoading, setIsLoading] = useState(true);
 
   const { loading, error, data, refetch } = useQuery(

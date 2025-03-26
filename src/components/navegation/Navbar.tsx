@@ -12,8 +12,8 @@ const Navbar = ({ selectedType, onSelectType, onSearchChange, onSearchSubmit, on
 
   const handleTypeSelection = (type: string) => {  
     onSelectType(type !== "Todos" ? type : null);
-    setSearchTerm(""); // Borra la búsqueda al seleccionar un tipo
-    onSearchChange(""); // Resetea el estado de búsqueda
+    setSearchTerm(""); 
+    onSearchChange(""); 
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -24,7 +24,7 @@ const Navbar = ({ selectedType, onSelectType, onSearchChange, onSearchSubmit, on
 
   const handleSearchSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!selectedType) { // Solo busca si NO hay un tipo seleccionado
+    if (!selectedType) { 
       onSearchSubmit();
     }
   };
@@ -96,7 +96,7 @@ const Navbar = ({ selectedType, onSelectType, onSearchChange, onSearchSubmit, on
                 aria-label="Search"
                 value={searchTerm}
                 onChange={handleInputChange}
-                disabled={!!selectedType} // Deshabilita si hay un filtro por tipo activo
+                disabled={!!selectedType} 
               />
               <button className="btn btn-outline-success" type="submit" disabled={!!selectedType}>Buscar</button>
             </form>
