@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import pokhome from "../../img/pokhome.png"; 
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
 
         <div className="col-md-6">
           <img
-            src="/img/pokhome.png"
+            src={pokhome}
             alt="Pokedex"
             className="img-fluid"
             style={{ maxHeight: "400px" }}
