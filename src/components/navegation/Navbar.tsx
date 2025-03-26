@@ -52,7 +52,7 @@ const Navbar = ({ selectedType, onSelectType, onSearchChange, onSearchSubmit, on
         <div className="container-fluid">
           <Link className="navbar-brand d-flex align-items-center" to="/">
             <img 
-              src="../../../img/pokemon-seeklogo.png" 
+              src="/img/pokemon-seeklogo.png" 
               alt="Logo" 
               className="img-fluid" 
               style={{ maxHeight: "70px", height: "auto", width: "auto" }} 
